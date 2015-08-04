@@ -2,35 +2,37 @@
 <html lang="en">
 <head>
     <title>{meta:title}</title>
+    
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="shortcut icon" href="http://www.{cpanel:domain}/favicon.ico" />
     <link href="{cpanel:url}themes/login/style.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="http://www.{cpanel:domain}/favicon.ico" />
+    
     <style type="text/css">
         body { background-color: {cpanel:login:background_color} }
         .picture {
-        background: {cpanel:login:foreground_color} url('{cpanel:login:background_image}') no-repeat;
+            background: {cpanel:login:foreground_color} url('{cpanel:login:background_image}') no-repeat;
         }
     </style>
-
+    
     {meta:js}
 </head>
 
 <body>
-<div id="start">
-    <div id="bef-main">
-        <div id="main">
-            <div class="borders">
-                <div class="picture">
-                    <div class="form">
-                        <div class="logo"><img src="{cpanel:logo}" alt="Logo" /></div>
-                        {block:messages}
-                        {block:content}
+    <div id="start">
+        <div id="bef-main">
+            <div id="main">
+                <div class="borders">
+                    <div class="picture">
+                        <div class="form">
+                            <div class="logo"><img src="{cpanel:logo}" alt="Logo" /></div>
+                            {block:messages}
+                            {block:content}
+                        </div>
                     </div>
+                    <div id="foot">{block:footer}</div>
                 </div>
-                <div id="foot">{block:footer}</div>
             </div>
         </div>
     </div>
-</div>
 </body>
 </html>

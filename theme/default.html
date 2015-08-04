@@ -4,61 +4,60 @@
     <title>{meta:title}</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" href="http://www.{cpanel:domain}/favicon.ico" />
+    
     {meta:css}
     {meta:js}
 </head>
 
 <body>
-<div id="start">
-    <div id="bef-main">
-        <div id="main">
-            <div id="top">
-
-                <div class="logo">
-                    <img src="{cpanel:logo}" alt="Logo"/>
-                </div>
-
-                <div class="choose selector-theme">
-                    {block:selector:theme:dropdown}
-                </div>
-
-                <div class="choose selector-lang">
-                    {block:selector:lang:dropdown}
-                </div>
-            </div>
-
-            {block:menu:top}
-
-            <div id="mid">
-                <div id="side-1" class="dashboard">
-                    <div class="dashboard-menu">&nbsp;</div>
-                    {block:messages}
-                    {block:menu:cpanel:sections}
-                    {block:content}
-                </div>
-
-                <div id="side-2">
-                    <div class="block">
-                        {block:find}
+	<div id="start">
+		<div id="bef-main">
+			<div id="main">
+				<div id="top">
+                    
+					<div class="logo">
+                        <img src="{cpanel:logo}" alt="Logo"/>
                     </div>
-
-                    <div class="block">
-                        {block:account}
-                    </div>
-
-                    <div class="block">
-                        {block:client}
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div id="foot"><div id="bef-cop">{block:footer}</div></div>
-        <div id="loading-mask" style="display:none;"><div class="loader"></div></div>
-        <div id="mb" style="display:none;"><!-- modal box --></div>
-    </div>
-</div>
+                    
+					<div class="choose selector-theme">
+                        {block:selector:theme:dropdown}
+					</div>
+                    
+					<div class="choose selector-lang">
+                        {block:selector:lang:dropdown}
+					</div>
+				</div>
+                
+                {block:menu:top:table}
+                
+                <div id="mid">
+					<div id="side-1">
+                        {block:messages}
+                        {block:menu:cpanel:sections}
+                        {block:content}
+					</div>
+					<div id="side-2">
+						<div class="block">
+                            {block:find}
+						</div>
+                                            
+						<div class="block">
+                            {block:account}
+						</div>
+                        
+						<div class="block">
+                            {block:client}
+						</div>
+							
+					</div>
+				</div>
+			</div>
+            
+            <div id="foot"><div id="bef-cop">{block:footer}</div></div>
+            <div id="loading-mask" style="display:none;"><div class="loader"></div></div>
+            <div id="mb" style="display:none;"><!-- modal box --></div>
+		</div>
+	</div>
 
 </body>
 </html>
