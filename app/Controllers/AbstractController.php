@@ -135,5 +135,10 @@ abstract class AbstractController
         return $page;
     }
 
+    /**
+     * Get the name of the theme file which needs to be used as a template for this page
+     *
+     * @return string
+     */
     abstract protected function getLayout();
 }

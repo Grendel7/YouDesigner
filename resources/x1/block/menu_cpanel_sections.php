@@ -1,6 +1,6 @@
-<div class="list top">
+<!--div class="list top">
     <div class="name"><span>Go to dashboard</span></div>
-</div>
+</div-->
 
 <div class="list ">
     <div class="name"><span>Accounts</span></div>

@@ -268,11 +268,11 @@ table.type-7 td.style-xx			{ background:url(http://cpanel.main-hosting.com/theme
 #bef-cop					{ width:920px; padding:12px 20px 12px 20px; color:#747474; }
 
 div.ssh_cli {
-width: 100%;
+    width: 100%;
 }
 div.ssh_cli div.dark,
 div.ssh_cli textarea {
-width: 99%;
+    width: 99%;
 }
 
 /* SSH console */
@@ -280,49 +280,49 @@ div.ssh_cli textarea,
 div.ssh_cli #command,
 div.ssh_cli div.dark,
 div.ssh_cli #cwd {
-font-size: 14px;
-font-family: courier;
-background-color: #000;
-color: #fff;
-margin: 0;
-padding: 2px 0 2px 5px;
-border: 0;
+    font-size: 14px;
+    font-family: courier;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 2px 0 2px 5px;
+    border: 0;
 }
 
 div.ssh_cli div.dark {
-border-top: 1px solid white;
+    border-top: 1px solid white;
 }
 
 #cwd {
-height:20px;
-text-align:right;
-white-space: nowrap;
+    height:20px;
+    text-align:right;
+    white-space: nowrap;
 }
 
 #cwd,
 div.ssh_cli #command {
-display: block;
-float: left;
-/*    width: 48%;*/
+    display: block;
+    float: left;
+    /*    width: 48%;*/
 }
 
 div.ssh_cli_comm {
-padding: 10px;
+    padding: 10px;
 }
 
 div.ssh_cli_comm dl dd {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 div.ssh_cli_comm dl dd dl dd{
-margin:-15px 0 10px 64px;
+    margin:-15px 0 10px 64px;
 }
 
 
 button.clear_cli,
 button.comm {
-width: 100px;
-margin: 2px;
+    width: 100px;
+    margin: 2px;
 }
 
 /* MODAL BOX */
@@ -339,107 +339,107 @@ margin: 2px;
 
 #loading-mask
 {
-position:absolute;
-color:#d85909;
-font-size:1.1em;
-font-weight:bold;
-text-align:center;
-opacity:0.80;
--ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* IE8 */
-z-index:500;
+    position:absolute;
+    color:#d85909;
+    font-size:1.1em;
+    font-weight:bold;
+    text-align:center;
+    opacity:0.80;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* IE8 */
+    z-index:500;
 }
 
 .loader {
-background: url(http://cpanel.main-hosting.com/themes/x1/images/progress-bar.gif) no-repeat center center;
+    background: url(http://cpanel.main-hosting.com/themes/x1/images/progress-bar.gif) no-repeat center center;
 }
 
 #loading-mask .loader
 {
-position:fixed;
-top:45%;
-left:50%;
-width:150px;
-height:50px;
-margin:-25px 0 0 -75px;
-padding:15px 60px;
-font-weight:bold;
-text-align:center;
-z-index:1000;
+    position:fixed;
+    top:45%;
+    left:50%;
+    width:150px;
+    height:50px;
+    margin:-25px 0 0 -75px;
+    padding:15px 60px;
+    font-weight:bold;
+    text-align:center;
+    z-index:1000;
 }
 
 
 /* -------------------------------------------
-NOTIFICATIONS
+		NOTIFICATIONS
 -------------------------------------------- */
 
 .msg  {
-margin:10px !important;
-padding:5px 0px 5px 55px !important;
-background-position: 15px center;
-background-repeat: no-repeat;
-cursor: default;
+    margin:10px !important;
+    padding:5px 0px 5px 55px !important;
+    background-position: 15px center;
+    background-repeat: no-repeat;
+    cursor: default;
 }
 
 .msg.warn {
-background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/error.png);
-border: 1px solid #FFC237;
-background-color: #FFEAA8;
-color: #826200;
+    background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/error.png);
+    border: 1px solid #FFC237;
+    background-color: #FFEAA8;
+    color: #826200;
 }
 
 .msg.success {
-background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/accept.png);
-border: 1px solid #99C600;
-background-color: #EFFFB9;
-color: #3C5A01;
+    background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/accept.png);
+    border: 1px solid #99C600;
+    background-color: #EFFFB9;
+    color: #3C5A01;
 }
 
 .msg.error {
-background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/exclamation.png);
-border: 1px solid #EB5339;
-background-color: #FCCAC2;
-color: #AC260F;
+    background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/exclamation.png);
+    border: 1px solid #EB5339;
+    background-color: #FCCAC2;
+    color: #AC260F;
 }
 
 .msg.info {
-background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/information.png);
-border: 1px solid #418ACC;
-background-color: #D0E4F4;
-color: #235685;
+    background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/information.png);
+    border: 1px solid #418ACC;
+    background-color: #D0E4F4;
+    color: #235685;
 }
 .msg h5 {
-margin:0;
-padding:5px 0px;
-font-size:1.0em;
-line-height:1.7em;
+    margin:0;
+    padding:5px 0px;
+    font-size:1.0em;
+    line-height:1.7em;
 }
 
 .msg p {
-line-height:18px !important;
-margin:0 0 10px !important;
-padding:0 !important;
+    line-height:18px !important;
+    margin:0 0 10px !important;
+    padding:0 !important;
 }
 .msg .close {
-text-decoration: none;
-float: right;
-margin: 0 5px;
-color: inherit;
+    text-decoration: none;
+    float: right;
+    margin: 0 5px;
+    color: inherit;
 }
 
 .attention {
-width: 16px;
-height: 16px;
-display: inline-block;
-background-image: url(/themes/x2/images/attention.png);
-background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-image: url(http://cpanel.main-hosting.com/themes/x2/images/attention.png);
+    background-repeat: no-repeat;
 }
 
 #progress_bars {
-color: #FFF;
-padding:15px 0 0 25px;
+    color: #FFF;
+    padding:15px 0 0 25px;
 }
 #progress_bars span {
-color: #fff;
+    color: #fff;
 }
 
 /* Payment gateways */
@@ -458,19 +458,19 @@ color: #fff;
 .pg-DineroMail,
 .pg-PaySera,
 .pg-PayU{
-background-repeat: no-repeat;
-width: 135px;
-height: 70px;
-background-position: center center;
-text-indent: -999px;
-/* IE fix*/
-font-size: 0;
-display: inline-block;
-line-height: 0;
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 70px;
+    background-position: center center;
+    text-indent: -999px;
+    /* IE fix*/
+    font-size: 0;
+    display: inline-block;
+    line-height: 0;
 }
 
-.pg-PaySera { background-image: url(/themes/x3/images/gateways/PaySera.png); }
-.pg-BitPay { background-image: url(/themes/x3/images/gateways/BitPay.png); }
+.pg-PaySera { background-image: url(http://cpanel.main-hosting.com/themes/x3/images/gateways/PaySera.png); }
+.pg-BitPay { background-image: url(http://cpanel.main-hosting.com/themes/x3/images/gateways/BitPay.png); }
 .pg-PayPalEmail { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/PayPalEmail.png); }
 .pg-Ebanx { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/Ebanx.png); }
 .pg-Payza { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/Payza.png); }
@@ -485,579 +485,579 @@ line-height: 0;
 .pg-PayU { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/PayU.jpg); }
 /* Progress bar actions */
 div.res-link {
-float: right;
+    float: right;
 }
 div.action span.fail {
-background-image: url(http://cpanel.main-hosting.com/themes/x1/images/error.png);
-display: block;
-width: 16px;
-height: 16px;
+    background-image: url(http://cpanel.main-hosting.com/themes/x1/images/error.png);
+    display: block;
+    width: 16px;
+    height: 16px;
 }
 
 .jeditor {
-width: 616px;
+    width: 616px;
 }
 #api-public-ticket {
-margin:0 0 0 290px;
+    margin:0 0 0 290px;
 }
 /* Public ticket form */
 #api-public-ticket form {
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 #api-public-ticket form fieldset {
-border: 0;
+    border: 0;
 }
 
 #api-public-ticket form legend {
-display: none;
+    display: none;
 }
 
 #api-public-ticket form .api_input {
-margin: 10px 0;
+    margin: 10px 0;
 }
 
 #api-public-ticket form .api_input input,
 #api-public-ticket form .api_input textarea{
-width: 200px;
+    width: 200px;
 }
 #api-public-ticket form label {
-display: block;
-margin: 0 0 3px 0;
+    display: block;
+    margin: 0 0 3px 0;
 }
 #api-public-ticket img.api_captcha {
-display: block;
+    display: block;
 }
 
 .cont h1 {
-display:none;
+    display:none;
 }
 
 ul#referrals-menu {
-display:block;
-width:90%;
-position:relative;
-float:left;
-padding:15px;
+    display:block;
+    width:90%;
+    position:relative;
+    float:left;
+    padding:15px;
 }
 
 ul#referrals-menu li {
-width:auto;
-margin:0 10px;
-position:relative;
-display:block;
-float:left;
+    width:auto;
+    margin:0 10px;
+    position:relative;
+    display:block;
+    float:left;
 }
 
 ul#referrals-menu li.first {
-margin-left:0;
+    margin-left:0;
 }
 
 table.banner-list td.title {
-width:120px;
-padding:10px;
+    width:120px;
+    padding:10px;
 }
 
 table.banner-list td.content {
-text-align:left;
+    text-align:left;
 }
 
 p.center {
-text-align:center;
+    text-align:center;
 }
 
 .auto-width {
-display:inline;
-width:auto;
+    display:inline;
+    width:auto;
 }
 
 input#phone_cc {
-width:28px;
+    width:28px;
 }
 /*Auto Installer*/
 .ai-software {
-display: block;
-float: left;
-width: 80px;
-height: 80px;
-padding: 15px 25px 35px 25px;
-margin: 16px;
-background-color: white;
-text-align: center;
-text-decoration: none;
-color: #666;
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    padding: 15px 25px 35px 25px;
+    margin: 16px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    color: #666;
 }
 .ai-software-icon {
-width: 80px;
-height: 80px;
-background-color: #FFF;
-background-position: -1000px 0px;
-background-image:url('/images/software/all.jpg');
+    width: 80px;
+    height: 80px;
+    background-color: #FFF;
+    background-position: -1000px 0px;
+    background-image:url('http://cpanel.main-hosting.com/images/software/all.jpg');
 }
 .ai-software-label {
-margin: 4px 0px;
-line-height: 14px;
+    margin: 4px 0px;
+    line-height: 14px;
 }
 .ai-software-tooltip{
-display:none;
-padding:2px 3px;
-margin-left:-88px;
-width:130px;
+    display:none;
+    padding:2px 3px;
+    margin-left:-88px;
+    width:130px;
 }
 .ai-software:hover .ai-software-tooltip{
-font-size: 11px;
-padding: 8px;
-width: 240px;
-text-align: left;
-display: inline;
-position: absolute;
-background: white;
-border: 1px solid #CCC;
-overflow: visible;
-z-index: 99999999;
+    font-size: 11px;
+    padding: 8px;
+    width: 240px;
+    text-align: left;
+    display: inline;
+    position: absolute;
+    background: white;
+    border: 1px solid #CCC;
+    overflow: visible;
+    z-index: 99999999;
 }
 /* Auto Installer Icons */
 .ai-software-icon-wordpress {
-background-position: -0px 0px;
+    background-position: -0px 0px;
 }
 .ai-software-icon-joomla {
-background-position: -80px 0px;
+    background-position: -80px 0px;
 }
 .ai-software-icon-phpbb {
-background-position: -160px 0px;
+    background-position: -160px 0px;
 }
 .ai-software-icon-smf {
-background-position: -240px 0px;
+    background-position: -240px 0px;
 }
 .ai-software-icon-coppermine {
-background-position: -320px 0px;
+    background-position: -320px 0px;
 }
 .ai-software-icon-b2evolution {
-background-position: -400px 0px;
+    background-position: -400px 0px;
 }
 .ai-software-icon-mambo {
-background-position: -480px 0px;
+    background-position: -480px 0px;
 }
 .ai-software-icon-mybb {
-background-position: -560px 0px;
+    background-position: -560px 0px;
 }
 .ai-software-icon-oscommerce {
-background-position: -640px 0px;
+    background-position: -640px 0px;
 }
 .ai-software-icon-zencart {
-background-position: -720px 0px;
+    background-position: -720px 0px;
 }
 .ai-software-icon-concrete {
-background-position: -800px 0px;
+    background-position: -800px 0px;
 }
 .ai-software-icon-drupal {
-background-position: -880px 0px;
+    background-position: -880px 0px;
 }
 .ai-software-icon-jcow {
-background-position: -960px 0px;
+    background-position: -960px 0px;
 }
 .ai-software-icon-mediawiki {
-background-position: -1040px 0px;
+    background-position: -1040px 0px;
 }
 .ai-software-icon-moodle {
-background-position: -1120px 0px;
+    background-position: -1120px 0px;
 }
 .ai-software-icon-openblog {
-background-position: -1200px 0px;
+    background-position: -1200px 0px;
 }
 .ai-software-icon-piwigo {
-background-position: -1280px 0px;
+    background-position: -1280px 0px;
 }
 .ai-software-icon-piwik {
-background-position: -1360px 0px;
+    background-position: -1360px 0px;
 }
 .ai-software-icon-prestashop {
-background-position: -1440px 0px;
+    background-position: -1440px 0px;
 }
 .ai-software-icon-punbb {
-background-position: -1520px 0px;
+    background-position: -1520px 0px;
 }
 .ai-software-icon-aef {
-background-position: -1600px 0px;
+    background-position: -1600px 0px;
 }
 .ai-software-icon-buddypress {
-background-position: -1680px 0px;
+    background-position: -1680px 0px;
 }
 .ai-software-icon-contao {
-background-position: -1760px 0px;
+    background-position: -1760px 0px;
 }
 .ai-software-icon-dotclear {
-background-position: -1840px 0px;
+    background-position: -1840px 0px;
 }
 .ai-software-icon-gallery3 {
-background-position: -1920px 0px;
+    background-position: -1920px 0px;
 }
 .ai-software-icon-lazarusgb {
-background-position: -2000px 0px;
+    background-position: -2000px 0px;
 }
 .ai-software-icon-osticket {
-background-position: -2080px 0px;
+    background-position: -2080px 0px;
 }
 .ai-software-icon-pligg {
-background-position: -2160px 0px;
+    background-position: -2160px 0px;
 }
 .ai-software-icon-sharetronix {
-background-position: -2240px 0px;
+    background-position: -2240px 0px;
 }
 .ai-software-icon-zenphoto {
-background-position: -2320px 0px;
+    background-position: -2320px 0px;
 }
 .ai-software-icon-cmsmadesimple {
-background-position: -2400px 0px;
+    background-position: -2400px 0px;
 }
 .ai-software-icon-zikula {
-background-position: -2480px 0px;
+    background-position: -2480px 0px;
 }
 .ai-software-icon-dokuwiki {
-background-position: -2560px 0px;
+    background-position: -2560px 0px;
 }
 .ai-software-icon-tinywebgallery {
-background-position: -2640px 0px;
+    background-position: -2640px 0px;
 }
 .ai-software-icon-limesurvey {
-background-position: -2720px 0px;
+    background-position: -2720px 0px;
 }
 .ai-software-icon-glfusion {
-background-position: -2800px 0px;
+    background-position: -2800px 0px;
 }
 .ai-software-icon-kplaylist {
-background-position: -2880px 0px;
+    background-position: -2880px 0px;
 }
 .ai-software-icon-podcast {
-background-position: -2960px 0px;
+    background-position: -2960px 0px;
 }
 .ai-software-icon-fengoffice {
-background-position: -3040px 0px;
+    background-position: -3040px 0px;
 }
 .ai-software-icon-gregarius {
-background-position: -3120px 0px;
+    background-position: -3120px 0px;
 }
 .ai-software-icon-pyrocms {
-background-position: -3200px 0px;
+    background-position: -3200px 0px;
 }
 .ai-software-icon-boxbilling {
-background-position: -3280px 0px;
+    background-position: -3280px 0px;
 }
 .ai-software-icon-chyrp {
-background-position: -3360px 0px;
+    background-position: -3360px 0px;
 }
 .ai-software-icon-pixie {
-background-position: -3440px 0px;
+    background-position: -3440px 0px;
 }
 .ai-software-icon-adaptcms {
-background-position: -3520px 0px;
+    background-position: -3520px 0px;
 }
 .ai-software-icon-seopanel {
-background-position: -3600px 0px;
+    background-position: -3600px 0px;
 }
 .ai-software-icon-websitebaker {
-background-position: -3680px 0px;
+    background-position: -3680px 0px;
 }
 .ai-software-icon-imm {
-background-position: -3760px 0px;
+    background-position: -3760px 0px;
 }
 .ai-software-icon-tikiwiki {
-background-position: -3840px 0px;
+    background-position: -3840px 0px;
 }
 .ai-software-icon-pivotx {
-background-position: -3920px 0px;
+    background-position: -3920px 0px;
 }
 
 .green-bar {
-height: 5px;
-background-color: green;
+    height: 5px;
+    background-color: green;
 }
 .yellow-bar {
-height: 5px;
-background-color: yellow;
+    height: 5px;
+    background-color: yellow;
 }
 .red-bar {
-height: 5px;
-background-color: red;
+    height: 5px;
+    background-color: red;
 }
 #diskUsageProgressBar,
 #BandwidthProgressBar {
-height: 5px;
-width: 95%;
-border: 1px solid #ccc ;
+    height: 5px;
+    width: 95%;
+    border: 1px solid #ccc ;
 }
 
 span.tree-element {
-display: inline-block;
-width: 16px;
-height: 11px;
-background-image: url(http://cpanel.main-hosting.com/themes/x1/images/tree_element.gif);
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    background-image: url(http://cpanel.main-hosting.com/themes/x1/images/tree_element.gif);
 }
 
 div.rateit
 {
-display: -moz-inline-box;
-display: inline-block;
-position: relative;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--o-user-select: none;
-user-select: none;
--webkit-touch-callout: none;
+    display: -moz-inline-box;
+    display: inline-block;
+    position: relative;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
 }
 
 div.rateit div.rateit-range
 {
-position: relative;
-display: -moz-inline-box;
-display: inline-block;
-background: url(images/star.gif);
-height: 16px;
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+    background: url(http://cpanel.main-hosting.com/images/star.gif);
+    height: 16px;
 }
 
 /* for IE 6 */
 * html div.rateit, * html div.rateit div.rateit-range
 {
-display: inline;
+    display: inline;
 }
 
 /* for IE 7 */
 * + html div.rateit, * + html div.rateit div.rateit-range
 {
-display: inline;
+    display: inline;
 }
 
 div.rateit div.rateit-hover, div.rateit div.rateit-selected
 {
-position: absolute;
-left: 0px;
+    position: absolute;
+    left: 0px;
 }
 
 div.rateit div.rateit-hover-rtl, div.rateit div.rateit-selected-rtl
 {
-left: auto;
-right: 0px;
+    left: auto;
+    right: 0px;
 }
 
 div.rateit div.rateit-hover
 {
-background: url(images/star.gif) left -32px;
+    background: url(http://cpanel.main-hosting.com/images/star.gif) left -32px;
 }
 
 div.rateit div.rateit-hover-rtl
 {
-background-position: right -32px;
+    background-position: right -32px;
 }
 
 div.rateit div.rateit-selected
 {
-background: url(images/star.gif) left -16px;
+    background: url(http://cpanel.main-hosting.com/images/star.gif) left -16px;
 }
 
 div.rateit div.rateit-selected-rtl
 {
-background-position: right -16px;
+    background-position: right -16px;
 }
 
 div.rateit div.rateit-preset
 {
-background: url(images/star.gif) left -48px;
+    background: url(http://cpanel.main-hosting.com/images/star.gif) left -48px;
 }
 
 div.rateit div.rateit-preset-rtl
 {
-background: url(images/star.gif) left -48px;
+    background: url(http://cpanel.main-hosting.com/images/star.gif) left -48px;
 }
 
 div.rateit div.rateit-reset
 {
-background: url(images/del.gif) 0 0;
-width: 16px;
-height: 16px;
-display: -moz-inline-box;
-display: inline-block;
-float: left;
+    background: url(http://cpanel.main-hosting.com/images/del.gif) 0 0;
+    width: 16px;
+    height: 16px;
+    display: -moz-inline-box;
+    display: inline-block;
+    float: left;
 }
 
 div.rateit div.rateit-reset:hover
 {
-background-position: 0 -16px;
+    background-position: 0 -16px;
 }
 
 #findInput {
-font-size: 11px; width:84%; display: block; float: left; padding-right: 9%;
+    font-size: 11px; width:84%; display: block; float: left; padding-right: 9%;
 }
 #clear_findInput {
-float:left; margin: 5px 0px 0px -17px; cursor: pointer; display: none;
+    float:left; margin: 5px 0px 0px -17px; cursor: pointer; display: none;
 }
 .invoice_details td {
-border: none !important;
+    border: none !important;
 }
 .invoice_details {
-vertical-align: top;
-width: 50%;
-padding: 0px;
-margin: 0px;
+    vertical-align: top;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
 }
 
 
 
 
-/*
-Document   : progressBar
-Created on : 2013-02-08, 16.12.53
-Author     : Zygis
-Description:
-Purpose of the stylesheet follows.
+/* 
+    Document   : progressBar
+    Created on : 2013-02-08, 16.12.53
+    Author     : Zygis
+    Description:
+        Purpose of the stylesheet follows.
 */
 
-/*
+/* 
 Set the container for the bar
 */
 .bar {
-height:20px;
-width:500px;
-padding:5px;
-margin:0 auto;
-margin-bottom:20px;
-background-color:rgba(255,255,255,.1);
--webkit-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
--moz-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
--ms-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    height:20px;
+    width:500px;
+    padding:5px;
+    margin:0 auto;
+    margin-bottom:20px;
+    background-color:rgba(255,255,255,.1);
+    -webkit-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    -ms-box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
+    box-shadow:0 1px 0 rgba(255,255,255,.03),inset 0 1px 0 rgba(0,0,0,.1);
 }
 
 .progressbarInfo {
-width:530px;
-margin:0 auto;
-text-align:left;
+    width:530px;
+    margin:0 auto;
+    text-align:left;
 }
 
-/*
+/* 
 This is the actual bar with stripes
 */
 .bar span {
-display:inline-block;
-height:100%;
-width:100%;
-border:1px solid #ff9a1a;
-border-bottom-color:#ff6201;
-background-color:#d3d3d3;
--webkit-box-sizing:border-box;
--moz-box-sizing:border-box;
--ms-box-sizing:border-box;
-box-sizing:border-box;
-background-image:
--webkit-linear-gradient(
--45deg,
-rgba(255, 154, 26, 1) 25%,
-transparent 25%,
-transparent 50%,
-rgba(255, 154, 26, 1) 50%,
-rgba(255, 154, 26, 1) 75%,
-transparent 75%,
-transparent
-);
-background-image:
--moz-linear-gradient(
--45deg,
-rgba(255, 154, 26, 1) 25%,
-transparent 25%,
-transparent 50%,
-rgba(255, 154, 26, 1) 50%,
-rgba(255, 154, 26, 1) 75%,
-transparent 75%,
-transparent
-);
-background-image:
--ms-linear-gradient(
--45deg,
-rgba(255, 154, 26, 1) 25%,
-transparent 25%,
-transparent 50%,
-rgba(255, 154, 26, 1) 50%,
-rgba(255, 154, 26, 1) 75%,
-transparent 75%,
-transparent
-);
-background-image:
-linear-gradient(
--45deg,
-rgba(255, 154, 26, 1) 25%,
-transparent 25%,
-transparent 50%,
-rgba(255, 154, 26, 1) 50%,
-rgba(255, 154, 26, 1) 75%,
-transparent 75%,
-transparent
-);
--webkit-background-size:50px 50px;
--moz-background-size:50px 50px;
--ms-background-size:50px 50px;
-background-size:50px 50px;
--webkit-animation:move 2s linear infinite;
--moz-animation:move 2s linear infinite;
--ms-animation:move 2s linear infinite;
-animation:move 2s linear infinite;
-overflow: hidden;
--webkit-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
--moz-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
--ms-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
+    display:inline-block;
+    height:100%;
+    width:100%;
+    border:1px solid #ff9a1a;
+    border-bottom-color:#ff6201;
+    background-color:#d3d3d3;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    box-sizing:border-box;
+    background-image:
+    -webkit-linear-gradient(
+            -45deg,
+            rgba(255, 154, 26, 1) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 154, 26, 1) 50%,
+            rgba(255, 154, 26, 1) 75%,
+            transparent 75%,
+            transparent
+    );
+    background-image:
+    -moz-linear-gradient(
+            -45deg,
+            rgba(255, 154, 26, 1) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 154, 26, 1) 50%,
+            rgba(255, 154, 26, 1) 75%,
+            transparent 75%,
+            transparent
+    );
+    background-image:
+    -ms-linear-gradient(
+            -45deg,
+            rgba(255, 154, 26, 1) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 154, 26, 1) 50%,
+            rgba(255, 154, 26, 1) 75%,
+            transparent 75%,
+            transparent
+    );
+    background-image:
+    linear-gradient(
+            -45deg,
+            rgba(255, 154, 26, 1) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 154, 26, 1) 50%,
+            rgba(255, 154, 26, 1) 75%,
+            transparent 75%,
+            transparent
+    );
+    -webkit-background-size:50px 50px;
+    -moz-background-size:50px 50px;
+    -ms-background-size:50px 50px;
+    background-size:50px 50px;
+    -webkit-animation:move 2s linear infinite;
+    -moz-animation:move 2s linear infinite;
+    -ms-animation:move 2s linear infinite;
+    animation:move 2s linear infinite;
+    overflow: hidden;
+    -webkit-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
+    -moz-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
+    -ms-box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
+    box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
 }
 
 .ppw_join {
-display: block;
-background: url(http://cpanel.main-hosting.com/themes/x1/images/ppw-join-button.png) center 0px no-repeat;
-width: 505px;
-height: 73px;
-margin: 0 auto;
-color: #fff !important;
-font-size: 16px;
-text-decoration: none !important;
-line-height: 73px;
-text-shadow: 2px 2px #b47a00 !important;
+    display: block;
+    background: url(http://cpanel.main-hosting.com/themes/x1/images/ppw-join-button.png) center 0px no-repeat;
+    width: 505px;
+    height: 73px;
+    margin: 0 auto;
+    color: #fff !important;
+    font-size: 16px;
+    text-decoration: none !important;
+    line-height: 73px;
+    text-shadow: 2px 2px #b47a00 !important;
 }
 
 .ppw_join:hover {
-color: #fff !important;
-text-shadow: 2px 2px #a36f00 !important;
-text-decoration: none !important;
+    color: #fff !important;
+    text-shadow: 2px 2px #a36f00 !important;
+    text-decoration: none !important;
 }
 
 /*
 Animate the stripes
 */
 @-webkit-keyframes move{
-0% {
-background-position: 0 0;
-}
-100% {
-background-position: 50px 50px;
-}
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
 }
 @-moz-keyframes move{
-0% {
-background-position: 0 0;
-}
-100% {
-background-position: 50px 50px;
-}
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
 }
 @-ms-keyframes move{
-0% {
-background-position: 0 0;
-}
-100% {
-background-position: 50px 50px;
-}
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
 }
 @keyframes move{
-0% {
-background-position: 0 0;
-}
-100% {
-background-position: 50px 50px;
-}
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50px 50px;
+    }
 }
