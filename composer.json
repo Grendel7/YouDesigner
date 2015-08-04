@@ -21,6 +21,6 @@
         "swiftmailer/swiftmailer": "5.*"
     },
   "autoload": {
-    "psr-4": {"YouDesign\\": "app/"}
+    "psr-4": {"YouDesigner\\": "app/"}
   }
 }
