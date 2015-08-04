@@ -115,6 +115,7 @@ class Block
             throw new \Exception("No file exists at: ".$path);
         }
 
-        return str_replace("$", "&#36;", file_get_contents($path));
+        //return str_replace("$", "&#36;", file_get_contents($path));
+        return file_get_contents($path);
     }
 }
