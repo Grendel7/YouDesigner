@@ -21,27 +21,27 @@ img                             { border: 0; }
 .tar    {text-align: right !important;}
 #start				{ width:950px; min-width:950px; min-height:500px; height:100%; margin: 0 auto; }
 #bef-main 			{ width:100%; border-left: 1px solid #8B919F; border-right: 1px solid #8B919F; border-bottom: 1px solid #8B919F; }
-#main				{ width:100%; position:relative; background:url(/themes/x1/images/top-menu.gif) 0 100px repeat-x; }
+#main				{ width:100%; position:relative; background:url(http://cpanel.main-hosting.com/themes/x1/images/top-menu.gif) 0 100px repeat-x; }
 
-#top				{ width:100%; height:100px; background:#fff url(/themes/x1/images/top.png) no-repeat; }
-#top .logo			{ overflow: hidden; position:absolute; left:23px; top:30px; width:231px; height:53px; /*background:url(/themes/x1/images/logo-company.png) no-repeat;*/ }
+#top				{ width:100%; height:100px; background:#fff url(http://cpanel.main-hosting.com/themes/x1/images/top.png) no-repeat; }
+#top .logo			{ overflow: hidden; position:absolute; left:23px; top:30px; width:231px; height:53px; /*background:url(http://cpanel.main-hosting.com/themes/x1/images/logo-company.png) no-repeat;*/ }
 #top .choose		{ float:right; padding:46px 20px 0 0; }
 
 #top .choose span	{ display:block; padding-bottom:5px; }
 #top .choose select	{ width:120px; }
 
-#top-menu			{ border-collapse:collapse; width:956px; background:url(/themes/x1/images/top-menu.gif) repeat-x; }
+#top-menu			{ border-collapse:collapse; width:956px; background:url(http://cpanel.main-hosting.com/themes/x1/images/top-menu.gif) repeat-x; }
 #top-menu td		{ padding:0; text-align:center; height:32px; }
-#top-menu td.sep	{ padding:0 1px 0 0; width:0; height:32px; font-size:0; background:url(/themes/x1/images/top-menu-sep.gif) no-repeat; }
+#top-menu td.sep	{ padding:0 1px 0 0; width:0; height:32px; font-size:0; background:url(http://cpanel.main-hosting.com/themes/x1/images/top-menu-sep.gif) no-repeat; }
 #top-menu td.sep.s	{ padding:0; width:0; height:32px; font-size:0; background:none; }
 #top-menu a			{ color:#fff; display:block; width:100%; padding:8px 0 10px 0; text-decoration:none; }
-#top-menu a:hover, #top-menu a.s	{ background:url(/themes/x1/images/top-menu-s.gif) repeat-x; }
+#top-menu a:hover, #top-menu a.s	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/top-menu-s.gif) repeat-x; }
 #top-menu td.ls, #top-menu td.rs	{ width:0; }
 
-ul.main-menu        { display: block; height: 32px; background:url(/themes/x1/images/top-menu.gif) repeat-x; margin:0; padding:0;}
+ul.main-menu        { display: block; height: 32px; background:url(http://cpanel.main-hosting.com/themes/x1/images/top-menu.gif) repeat-x; margin:0; padding:0;}
 ul.main-menu li     { display: inline; text-align: center; }
 ul.main-menu li a	{ color:#fff; display:inline-block; padding:8px 20px 10px 20px; text-decoration:none; }
-ul.main-menu li a:hover, ul.main-menu li a.s	{ background:url(/themes/x1/images/top-menu-s.gif) repeat-x; }
+ul.main-menu li a:hover, ul.main-menu li a.s	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/top-menu-s.gif) repeat-x; }
 
 #nav				{ list-style-type:none; padding:0; margin:0; }
 #nav li				{ padding:0; margin:0; }
@@ -49,19 +49,19 @@ ul.main-menu li a:hover, ul.main-menu li a.s	{ background:url(/themes/x1/images/
 #nav li a.s			{ font-weight:bold; }
 
 #mid, #mid-inner	{ width:100%; overflow:hidden; }
-#mid-inner			{ padding-top:0; background:#FCFCFC url(/themes/x1/images/mid.gif) repeat-y; }
+#mid-inner			{ padding-top:0; background:#FCFCFC url(http://cpanel.main-hosting.com/themes/x1/images/mid.gif) repeat-y; }
 
-#ba					{ position:absolute; left:0; bottom:0; width:249px; height:492px; background:url(/themes/x1/images/mid.jpg) no-repeat; }
+#ba					{ position:absolute; left:0; bottom:0; width:249px; height:492px; background:url(http://cpanel.main-hosting.com/themes/x1/images/mid.jpg) no-repeat; }
 
 .dashboard-menu,
 .head				{ padding:23px 0 5px 20px; border-bottom:1px solid #8B919F; background:#F0F0F0; font-size:18px; color:#003399; width:auto; }
 
-#side-1				{ float:left; width:70%; background:url(/themes/x1/images/side-1.gif) 100% 0 repeat-y; padding-bottom:20px; overflow:auto; }
+#side-1				{ float:left; width:70%; background:url(http://cpanel.main-hosting.com/themes/x1/images/side-1.gif) 100% 0 repeat-y; padding-bottom:20px; overflow:auto; }
 #mid-inner #side-1	{ width:257px; background:none; }
 
 .list				{ overflow:auto; padding-top:16px; }
 .list.top			{ padding-top:0; }
-.list .name			{ color:#003399; background:url(/themes/x1/images/list-name.gif) 0 19px repeat-x; padding:12px 0 0 0; overflow:auto; clear:left; }
+.list .name			{ color:#003399; background:url(http://cpanel.main-hosting.com/themes/x1/images/list-name.gif) 0 19px repeat-x; padding:12px 0 0 0; overflow:auto; clear:left; }
 .list .name span	{ background:#fff; padding:0 10px 0 20px; }
 .list .item			{ float:left; width:25%; padding:10px 0 5px 0; min-height:28px; overflow:hidden; margin-top:6px; min-height:60px; }
 .list .item .icon	{ margin-left:auto; margin-right:auto; }
@@ -73,71 +73,71 @@ ul.main-menu li a:hover, ul.main-menu li a.s	{ background:url(/themes/x1/images/
 
 .list .item span.icon { display: block; width: 32px; height: 32px;}
 
-.list .item span.icon-0	{ background:url(/themes/x1/images/icon-0.png) 0px 0px no-repeat; }
-.list .item span.icon-1	{ background:url(/themes/x1/images/icon-1.png) 0px 0px no-repeat; }
-.list .item span.icon-2	{ background:url(/themes/x1/images/icon-2.png) 0px 0px no-repeat; }
-.list .item span.icon-3	{ background:url(/themes/x1/images/icon-3.png) 0px 0px no-repeat; }
-.list .item span.icon-4	{ background:url(/themes/x1/images/icon-4.png) 0px 0px no-repeat; }
-.list .item span.icon-5	{ background:url(/themes/x1/images/icon-5.png) 0px 0px no-repeat; }
-.list .item span.icon-6	{ background:url(/themes/x1/images/icon-6.png) 0px 0px no-repeat; }
-.list .item span.icon-7	{ background:url(/themes/x1/images/icon-7.png) 0px 0px no-repeat; }
-.list .item span.icon-8	{ background:url(/themes/x1/images/icon-8.png) 0px 0px no-repeat; }
-.list .item span.icon-9	{ background:url(/themes/x1/images/icon-9.png) 0px 0px no-repeat; }
-.list .item span.icon-10	{ background:url(/themes/x1/images/icon-10.png) 0px 0px no-repeat; }
-.list .item span.icon-11	{ background:url(/themes/x1/images/icon-11.png) 0px 0px no-repeat; }
-.list .item span.icon-12	{ background:url(/themes/x1/images/icon-12.png) 0px 0px no-repeat; }
-.list .item span.icon-13	{ background:url(/themes/x1/images/icon-13.png) 0px 0px no-repeat; }
-.list .item span.icon-14	{ background:url(/themes/x1/images/icon-14.png) 0px 0px no-repeat; }
-.list .item span.icon-15	{ background:url(/themes/x1/images/icon-15.png) 0px 0px no-repeat; }
-.list .item span.icon-16	{ background:url(/themes/x1/images/icon-16.png) 0px 0px no-repeat; }
-.list .item span.icon-17	{ background:url(/themes/x1/images/icon-17.png) 0px 0px no-repeat; }
-.list .item span.icon-18	{ background:url(/themes/x1/images/icon-18.png) 0px 0px no-repeat; }
-.list .item span.icon-19	{ background:url(/themes/x1/images/icon-19.png) 0px 0px no-repeat; }
-.list .item span.icon-20	{ background:url(/themes/x1/images/icon-20.png) 0px 0px no-repeat; }
-.list .item span.icon-21	{ background:url(/themes/x1/images/icon-21.png) 0px 0px no-repeat; }
-.list .item span.icon-22	{ background:url(/themes/x1/images/icon-22.png) 0px 0px no-repeat; }
-.list .item span.icon-23	{ background:url(/themes/x1/images/icon-23.png) 0px 0px no-repeat; }
-.list .item span.icon-24	{ background:url(/themes/x1/images/icon-24.png) 0px 0px no-repeat; }
-.list .item span.icon-25	{ background:url(/themes/x1/images/icon-25.png) 0px 0px no-repeat; }
-.list .item span.icon-26	{ background:url(/themes/x1/images/icon-26.png) 0px 0px no-repeat; }
-.list .item span.icon-27	{ background:url(/themes/x1/images/icon-27.png) 0px 0px no-repeat; }
-.list .item span.icon-28	{ background:url(/themes/x1/images/icon-28.png) 0px 0px no-repeat; }
-.list .item span.icon-29	{ background:url(/themes/x1/images/icon-29.png) 0px 0px no-repeat; }
-.list .item span.icon-30	{ background:url(/themes/x1/images/icon-30.png) 0px 0px no-repeat; }
-.list .item span.icon-31	{ background:url(/themes/x1/images/icon-31.png) 0px 0px no-repeat; }
-.list .item span.icon-32	{ background:url(/themes/x1/images/icon-32.png) 0px 0px no-repeat; }
-.list .item span.icon-33	{ background:url(/themes/x1/images/icon-33.png) 0px 0px no-repeat; }
-.list .item span.icon-34	{ background:url(/themes/x1/images/icon-34.png) 0px 0px no-repeat; }
-.list .item span.icon-35	{ background:url(/themes/x1/images/icon-35.png) 0px 0px no-repeat; }
-.list .item span.icon-36	{ background:url(/themes/x1/images/icon-36.png) 0px 0px no-repeat; }
-.list .item span.icon-37	{ background:url(/themes/x1/images/icon-37.png) 0px 0px no-repeat; }
-.list .item span.icon-38	{ background:url(/themes/x1/images/icon-38.png) 0px 0px no-repeat; }
-.list .item span.icon-39	{ background:url(/themes/x1/images/icon-39.png) 0px 0px no-repeat; }
-.list .item span.icon-40	{ background:url(/themes/x1/images/icon-40.png) 0px 0px no-repeat; }
-.list .item span.icon-41	{ background:url(/themes/x1/images/icon-41.png) 0px 0px no-repeat; }
-.list .item span.icon-42	{ background:url(/themes/x1/images/icon-42.png) center 0px no-repeat; }
-.list .item span.icon-43	{ background:url(/themes/x1/images/icon-43.png) center 0px no-repeat; }
-.list .item span.icon-44	{ background:url(/themes/x1/images/icon-44.png) center 0px no-repeat; }
-.list .item span.icon-45	{ background:url(/themes/x1/images/icon-45.png) center 0px no-repeat; }
-.list .item span.icon-46	{ background:url(/themes/x1/images/icon-46.png) center 0px no-repeat; }
-.list .item span.icon-47	{ background:url(/themes/x1/images/icon-47.png) center 0px no-repeat; }
-.list .item span.icon-48	{ background:url(/themes/x1/images/icon-48.png) center 0px no-repeat; }
-.list .item span.icon-49	{ background:url(/themes/x1/images/icon-49.png) center 0px no-repeat; }
-.list .item span.icon-50	{ background:url(/themes/x1/images/icon-50.png) center 0px no-repeat; }
-.list .item span.icon-51	{ background:url(/themes/x1/images/icon-51.png) center 0px no-repeat; }
-.list .item span.icon-52	{ background:url(/themes/x1/images/icon-52.png) center 0px no-repeat; }
-.list .item span.icon-53	{ background:url(/themes/x1/images/icon-53.png) center 0px no-repeat; }
-.list .item span.icon-54	{ background:url(/themes/x1/images/icon-54.png) center 0px no-repeat; }
-.list .item span.icon-55	{ background:url(/themes/x1/images/icon-55.png) center 0px no-repeat; }
-.list .item span.icon-56	{ background:url(/themes/x1/images/icon-56.png) center 0px no-repeat; }
-.list .item span.icon-57	{ background:url(/themes/x1/images/icon-57.png) center 0px no-repeat; }
-.list .item span.icon-cron-output	{ background:url(/themes/x1/images/icon-29.png) 0px 0px no-repeat; }
-.list .item span.icon-mail-service-control { background:url(/themes/x1/images/icon-mail-service-control.png) 0px 0px no-repeat; }
+.list .item span.icon-0	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-0.png) 0px 0px no-repeat; }
+.list .item span.icon-1	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-1.png) 0px 0px no-repeat; }
+.list .item span.icon-2	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-2.png) 0px 0px no-repeat; }
+.list .item span.icon-3	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-3.png) 0px 0px no-repeat; }
+.list .item span.icon-4	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-4.png) 0px 0px no-repeat; }
+.list .item span.icon-5	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-5.png) 0px 0px no-repeat; }
+.list .item span.icon-6	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-6.png) 0px 0px no-repeat; }
+.list .item span.icon-7	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-7.png) 0px 0px no-repeat; }
+.list .item span.icon-8	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-8.png) 0px 0px no-repeat; }
+.list .item span.icon-9	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-9.png) 0px 0px no-repeat; }
+.list .item span.icon-10	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-10.png) 0px 0px no-repeat; }
+.list .item span.icon-11	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-11.png) 0px 0px no-repeat; }
+.list .item span.icon-12	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-12.png) 0px 0px no-repeat; }
+.list .item span.icon-13	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-13.png) 0px 0px no-repeat; }
+.list .item span.icon-14	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-14.png) 0px 0px no-repeat; }
+.list .item span.icon-15	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-15.png) 0px 0px no-repeat; }
+.list .item span.icon-16	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-16.png) 0px 0px no-repeat; }
+.list .item span.icon-17	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-17.png) 0px 0px no-repeat; }
+.list .item span.icon-18	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-18.png) 0px 0px no-repeat; }
+.list .item span.icon-19	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-19.png) 0px 0px no-repeat; }
+.list .item span.icon-20	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-20.png) 0px 0px no-repeat; }
+.list .item span.icon-21	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-21.png) 0px 0px no-repeat; }
+.list .item span.icon-22	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-22.png) 0px 0px no-repeat; }
+.list .item span.icon-23	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-23.png) 0px 0px no-repeat; }
+.list .item span.icon-24	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-24.png) 0px 0px no-repeat; }
+.list .item span.icon-25	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-25.png) 0px 0px no-repeat; }
+.list .item span.icon-26	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-26.png) 0px 0px no-repeat; }
+.list .item span.icon-27	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-27.png) 0px 0px no-repeat; }
+.list .item span.icon-28	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-28.png) 0px 0px no-repeat; }
+.list .item span.icon-29	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-29.png) 0px 0px no-repeat; }
+.list .item span.icon-30	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-30.png) 0px 0px no-repeat; }
+.list .item span.icon-31	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-31.png) 0px 0px no-repeat; }
+.list .item span.icon-32	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-32.png) 0px 0px no-repeat; }
+.list .item span.icon-33	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-33.png) 0px 0px no-repeat; }
+.list .item span.icon-34	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-34.png) 0px 0px no-repeat; }
+.list .item span.icon-35	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-35.png) 0px 0px no-repeat; }
+.list .item span.icon-36	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-36.png) 0px 0px no-repeat; }
+.list .item span.icon-37	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-37.png) 0px 0px no-repeat; }
+.list .item span.icon-38	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-38.png) 0px 0px no-repeat; }
+.list .item span.icon-39	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-39.png) 0px 0px no-repeat; }
+.list .item span.icon-40	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-40.png) 0px 0px no-repeat; }
+.list .item span.icon-41	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-41.png) 0px 0px no-repeat; }
+.list .item span.icon-42	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-42.png) center 0px no-repeat; }
+.list .item span.icon-43	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-43.png) center 0px no-repeat; }
+.list .item span.icon-44	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-44.png) center 0px no-repeat; }
+.list .item span.icon-45	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-45.png) center 0px no-repeat; }
+.list .item span.icon-46	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-46.png) center 0px no-repeat; }
+.list .item span.icon-47	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-47.png) center 0px no-repeat; }
+.list .item span.icon-48	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-48.png) center 0px no-repeat; }
+.list .item span.icon-49	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-49.png) center 0px no-repeat; }
+.list .item span.icon-50	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-50.png) center 0px no-repeat; }
+.list .item span.icon-51	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-51.png) center 0px no-repeat; }
+.list .item span.icon-52	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-52.png) center 0px no-repeat; }
+.list .item span.icon-53	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-53.png) center 0px no-repeat; }
+.list .item span.icon-54	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-54.png) center 0px no-repeat; }
+.list .item span.icon-55	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-55.png) center 0px no-repeat; }
+.list .item span.icon-56	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-56.png) center 0px no-repeat; }
+.list .item span.icon-57	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-57.png) center 0px no-repeat; }
+.list .item span.icon-cron-output	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-29.png) 0px 0px no-repeat; }
+.list .item span.icon-mail-service-control { background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-mail-service-control.png) 0px 0px no-repeat; }
 
 #nav-left			{ list-style-type:none; padding:4px 0 0 0; margin:0; }
 #nav-left li		{ padding:13px 0 13px 25px; margin:0; font-weight:bold; font-size:12px; }
 #nav-left li.sub	{ padding:4px 0 4px 25px; font-weight:normal; }
-#nav-left li.s		{ background:url(/themes/x1/images/nav-left.gif) 10px center no-repeat; }
+#nav-left li.s		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/nav-left.gif) 10px center no-repeat; }
 #nav-left a			{ color:#fff; }
 #nav-left a:hover	{ color:#CFDDE5; }
 #nav-left a.s		{ font-weight:bold; }
@@ -150,7 +150,7 @@ ul.nav-left li ul   { list-style-type:none; margin:0; padding: 0 0 0 10px; }
 ul.nav-left li ul li a { height: auto; font-weight:normal; padding-left: 30px; font-size: 0.85em;}
 ul.nav-left a       { color:#fff; }
 ul.nav-left a:hover       { color:#CFDDE5; }
-ul.nav-left li.active > a { padding:5px 0 0 25px; font-weight:bold; background:url(/themes/x1/images/nav-left.gif) 10px center no-repeat;}
+ul.nav-left li.active > a { padding:5px 0 0 25px; font-weight:bold; background:url(http://cpanel.main-hosting.com/themes/x1/images/nav-left.gif) 10px center no-repeat;}
 
 #side-2				{ float:left; width:30%; position:relative; left:60%; margin-left:-60%; }
 #mid-inner #side-2	{ width:690px; float:right; overflow:visible; margin:0 0 0 257px; left:auto; margin-left:auto; /* position:relative; left:60%; margin-left:-60%; */ }
@@ -162,8 +162,8 @@ ul.nav-left li.active > a { padding:5px 0 0 25px; font-weight:bold; background:u
 .block table		{ border-collapse:collapse; margin-top:6px; width:100%; }
 .block td			{ padding:4px 0 4px 20px; }
 .block td.color		{ padding-right:20px; color:#747474; }
-span.active		{ background:url(/themes/x1/images/active.gif) no-repeat; display:block; padding:1px 0 1px 21px; }
-span.active.not, span.inactive	{ background:url(/themes/x1/images/inactive.gif) no-repeat; display:block; padding:1px 0 1px 21px;}
+span.active		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/active.gif) no-repeat; display:block; padding:1px 0 1px 21px; }
+span.active.not, span.inactive	{ background:url(http://cpanel.main-hosting.com/themes/x1/images/inactive.gif) no-repeat; display:block; padding:1px 0 1px 21px;}
 
 .profile .client-profile { background-color: #fff; width: 249px; overflow-x:hidden; }
 .profile .client-profile table		{ border-collapse:collapse; margin-top:6px; width:100%; }
@@ -173,16 +173,16 @@ span.active.not, span.inactive	{ background:url(/themes/x1/images/inactive.gif) 
 .cont				{ width:auto; padding:0; color:#666; min-height:500px; }
 .cont h1			{ font-size:18px; margin:6px 0 15px 6px; }
 .cont h2			{ margin-bottom:17px; padding-left:55px; position:relative; }
-.cont h2.icon-0		{ background:url(/themes/x1/images/icon-0.png) 9px 14px no-repeat; }
-.cont h2.icon-1		{ background:url(/themes/x1/images/icon-1.png) 9px 14px no-repeat; }
-.cont h2.icon-2		{ background:url(/themes/x1/images/icon-2.png) 9px 14px no-repeat; }
-.cont h2.icon-3		{ background:url(/themes/x1/images/icon-3.png) 9px 14px no-repeat; }
-.cont h2.icon-4		{ background:url(/themes/x1/images/icon-4.png) 9px 14px no-repeat; }
-.cont h2.icon-5		{ background:url(/themes/x1/images/icon-5.png) 9px 14px no-repeat; }
-.cont h2.icon-6		{ background:url(/themes/x1/images/icon-6.png) 9px 14px no-repeat; }
-.cont h2.icon-7		{ background:url(/themes/x1/images/icon-7.png) 9px 14px no-repeat; }
-.cont h2.icon-8		{ background:url(/themes/x1/images/icon-8.png) 9px 14px no-repeat; }
-.cont h2.head em	{ font-size:12px; color:#000; font-style:normal; position:absolute; top:5px; left:55px; padding-right:12px; background:url(/themes/x1/images/square.gif) 100% center no-repeat; }
+.cont h2.icon-0		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-0.png) 9px 14px no-repeat; }
+.cont h2.icon-1		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-1.png) 9px 14px no-repeat; }
+.cont h2.icon-2		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-2.png) 9px 14px no-repeat; }
+.cont h2.icon-3		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-3.png) 9px 14px no-repeat; }
+.cont h2.icon-4		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-4.png) 9px 14px no-repeat; }
+.cont h2.icon-5		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-5.png) 9px 14px no-repeat; }
+.cont h2.icon-6		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-6.png) 9px 14px no-repeat; }
+.cont h2.icon-7		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-7.png) 9px 14px no-repeat; }
+.cont h2.icon-8		{ background:url(http://cpanel.main-hosting.com/themes/x1/images/icon-8.png) 9px 14px no-repeat; }
+.cont h2.head em	{ font-size:12px; color:#000; font-style:normal; position:absolute; top:5px; left:55px; padding-right:12px; background:url(http://cpanel.main-hosting.com/themes/x1/images/square.gif) 100% center no-repeat; }
 .cont h2.head em a	{ color:#000; }
 .cont h3			{ font-size:12px; font-weight:bold; padding-left:15px; padding-right:15px; margin-bottom:10px; }
 .cont h4			{ font-size:13px; font-weight:bold; color:#3B6086; }
@@ -192,7 +192,7 @@ span.active.not, span.inactive	{ background:url(/themes/x1/images/inactive.gif) 
 .cont td			{ border:0; }
 .cont p				{ padding-left:15px; padding-right:15px; margin-bottom:15px; line-height:20px; }
 .cont ul			{ padding:0 0 0 30px; margin:0 0 15px 0; list-style-type:none; }
-.cont li			{ padding:0 0 0 10px; line-height:20px; margin:0; background:url(/themes/x1/images/square.gif) 0 center no-repeat; }
+.cont li			{ padding:0 0 0 10px; line-height:20px; margin:0; background:url(http://cpanel.main-hosting.com/themes/x1/images/square.gif) 0 center no-repeat; }
 .cont input[type=text],
 .cont input[type=password],
 .cont textarea,
@@ -233,20 +233,20 @@ table.type-4 td select		{ width:140px; }
 table.type-4 td.micro		{ padding:6px 0 0 0; vertical-align:top; }
 
 td.password					{ text-align:center; color:#636363; }
-td.password div				{ background:#fff url(/themes/x1/images/password.gif) 1px 1px no-repeat; border:1px solid #7F9DB9; height:7px; font-size:0; padding:1px; margin-bottom:5px; }
+td.password div				{ background:#fff url(http://cpanel.main-hosting.com/themes/x1/images/password.gif) 1px 1px no-repeat; border:1px solid #7F9DB9; height:7px; font-size:0; padding:1px; margin-bottom:5px; }
 
 table.type-5					{ width:97%; border:1px solid #D5D5D5; }
 table.type-5 td					{ padding:10px 0px 10px 0px; border:0; border-top:1px solid #D5D5D5; text-align:center; color:#747474; }
 table.type-5 tr.head td			{ text-align:center; padding:10px 0px 10px 0px; font-weight:normal; border-top:1px solid #D5D5D5; color:#000; }
 table.type-5 tr.bot td			{ text-align:right; border-bottom:1px solid #D5D5D5; border-top:1px solid #D5D5D5;}
-table.type-5 td.link a			{ font-size:0; display:block; width:16px; height:16px; background:url(/themes/x1/images/link.gif) no-repeat; color:#fff; margin:0 auto; }
+table.type-5 td.link a			{ font-size:0; display:block; width:16px; height:16px; background:url(http://cpanel.main-hosting.com/themes/x1/images/link.gif) no-repeat; color:#fff; margin:0 auto; }
 table.type-5 td.misc			{ white-space:nowrap; }
 table.type-5 td.t5-left			{ border-left:0; color:#000; }
 
 .cont .per-page				{ padding-left:0; margin-bottom:20px; }
 .cont .per-page select		{ vertical-align:middle; margin:0 20px; }
 
-.cont .host			{ border:1px solid #D5D5D5; position:relative; background:url(/themes/x1/images/host.gif) 22px 39px no-repeat; margin:2px 20px 15px 20px; }
+.cont .host			{ border:1px solid #D5D5D5; position:relative; background:url(http://cpanel.main-hosting.com/themes/x1/images/host.gif) 22px 39px no-repeat; margin:2px 20px 15px 20px; }
 .cont .host span	{ position:absolute; background:#fff; padding:0 5px; top:-6px; left:17px; }
 .cont .host div		{ padding:27px 0 27px 65px; }
 
@@ -259,10 +259,10 @@ table.type-6 tbody td textarea  { width: 100%; }
 
 table.type-7 td					{ padding:102px 30px 15px 30px; }
 table.type-7 input				{ width:124px; }
-table.type-7 td.style-x1			{ background:url(/themes/x1/images/style-1.png) center top no-repeat; }
-table.type-7 td.style-x2			{ background:url(/themes/x1/images/style-2.png) center top no-repeat; }
-table.type-7 td.style-x3			{ background:url(/themes/x1/images/style-3.png) center top no-repeat; }
-table.type-7 td.style-xx			{ background:url(/themes/x1/images/style-3.png) center top no-repeat; }
+table.type-7 td.style-x1			{ background:url(http://cpanel.main-hosting.com/themes/x1/images/style-1.png) center top no-repeat; }
+table.type-7 td.style-x2			{ background:url(http://cpanel.main-hosting.com/themes/x1/images/style-2.png) center top no-repeat; }
+table.type-7 td.style-x3			{ background:url(http://cpanel.main-hosting.com/themes/x1/images/style-3.png) center top no-repeat; }
+table.type-7 td.style-xx			{ background:url(http://cpanel.main-hosting.com/themes/x1/images/style-3.png) center top no-repeat; }
 
 #foot						{ width:100%; height:39px; border-top:1px solid #8B919F; background:#F0F0F0; }
 #bef-cop					{ width:920px; padding:12px 20px 12px 20px; color:#747474; }
@@ -334,7 +334,7 @@ margin: 2px;
 /* Container */
 #simplemodal-container, #loading-mask .loader { background-color:#fff; border:6px solid #3D4453; padding:12px;}
 #simplemodal-container code {background:#141414; border-left:3px solid #65B43D; display:block; margin-bottom:12px; padding:4px 6px 6px;}
-#simplemodal-container a.modalCloseImg {background:url(/themes/x1/images/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container a.modalCloseImg {background:url(http://cpanel.main-hosting.com/themes/x1/images/x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
 #simplemodal-container #basic-modal-content {padding:8px;}
 
 #loading-mask
@@ -350,7 +350,7 @@ z-index:500;
 }
 
 .loader {
-background: url(/themes/x1/images/progress-bar.gif) no-repeat center center;
+background: url(http://cpanel.main-hosting.com/themes/x1/images/progress-bar.gif) no-repeat center center;
 }
 
 #loading-mask .loader
@@ -381,28 +381,28 @@ cursor: default;
 }
 
 .msg.warn {
-background-image: url(/themes/x1/images/32x32/error.png);
+background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/error.png);
 border: 1px solid #FFC237;
 background-color: #FFEAA8;
 color: #826200;
 }
 
 .msg.success {
-background-image: url(/themes/x1/images/32x32/accept.png);
+background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/accept.png);
 border: 1px solid #99C600;
 background-color: #EFFFB9;
 color: #3C5A01;
 }
 
 .msg.error {
-background-image: url(/themes/x1/images/32x32/exclamation.png);
+background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/exclamation.png);
 border: 1px solid #EB5339;
 background-color: #FCCAC2;
 color: #AC260F;
 }
 
 .msg.info {
-background-image: url(/themes/x1/images/32x32/information.png);
+background-image: url(http://cpanel.main-hosting.com/themes/x1/images/32x32/information.png);
 border: 1px solid #418ACC;
 background-color: #D0E4F4;
 color: #235685;
@@ -471,24 +471,24 @@ line-height: 0;
 
 .pg-PaySera { background-image: url(/themes/x3/images/gateways/PaySera.png); }
 .pg-BitPay { background-image: url(/themes/x3/images/gateways/BitPay.png); }
-.pg-PayPalEmail { background-image: url(/themes/x1/images/gateways/PayPalEmail.png); }
-.pg-Ebanx { background-image: url(/themes/x1/images/gateways/Ebanx.png); }
-.pg-Payza { background-image: url(/themes/x1/images/gateways/Payza.png); }
-.pg-TwoCheckout { background-image: url(/themes/x1/images/gateways/TwoCheckout.png); }
-.pg-WebMoney { background-image: url(/themes/x1/images/gateways/WebMoney.png); }
-.pg-Custom { background-image: url(/themes/x1/images/gateways/Custom.png); }
-.pg-Interkassa { background-image: url(/themes/x1/images/gateways/Interkassa.png); }
-.pg-InterkassaV2 { background-image: url(/themes/x1/images/gateways/Interkassa.png); }
-.pg-Skrill { background-image: url(/themes/x1/images/gateways/Skrill.png); }
-.pg-LibertyReserve { background-image: url(/themes/x1/images/gateways/LibertyReserve.png); }
-.pg-DineroMail { background-image: url(/themes/x1/images/gateways/DineroMail.png); }
-.pg-PayU { background-image: url(/themes/x1/images/gateways/PayU.jpg); }
+.pg-PayPalEmail { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/PayPalEmail.png); }
+.pg-Ebanx { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/Ebanx.png); }
+.pg-Payza { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/Payza.png); }
+.pg-TwoCheckout { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/TwoCheckout.png); }
+.pg-WebMoney { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/WebMoney.png); }
+.pg-Custom { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/Custom.png); }
+.pg-Interkassa { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/Interkassa.png); }
+.pg-InterkassaV2 { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/Interkassa.png); }
+.pg-Skrill { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/Skrill.png); }
+.pg-LibertyReserve { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/LibertyReserve.png); }
+.pg-DineroMail { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/DineroMail.png); }
+.pg-PayU { background-image: url(http://cpanel.main-hosting.com/themes/x1/images/gateways/PayU.jpg); }
 /* Progress bar actions */
 div.res-link {
 float: right;
 }
 div.action span.fail {
-background-image: url(/themes/x1/images/error.png);
+background-image: url(http://cpanel.main-hosting.com/themes/x1/images/error.png);
 display: block;
 width: 16px;
 height: 16px;
@@ -791,7 +791,7 @@ span.tree-element {
 display: inline-block;
 width: 16px;
 height: 11px;
-background-image: url(/themes/x1/images/tree_element.gif);
+background-image: url(http://cpanel.main-hosting.com/themes/x1/images/tree_element.gif);
 }
 
 div.rateit
@@ -1009,7 +1009,7 @@ box-shadow:inset 0 10px 0 rgba(255,255,255,.2);
 
 .ppw_join {
 display: block;
-background: url(/themes/x1/images/ppw-join-button.png) center 0px no-repeat;
+background: url(http://cpanel.main-hosting.com/themes/x1/images/ppw-join-button.png) center 0px no-repeat;
 width: 505px;
 height: 73px;
 margin: 0 auto;
