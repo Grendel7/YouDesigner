@@ -16,6 +16,8 @@ class Block
     const TYPE_FILE = 2;
     const TYPE_CSS = 3;
     const TYPE_BLANK = 4;
+    const TYPE_DISABLED = -1;
+    const TYPE_THEME = 5;
 
     protected $app;
 
@@ -75,6 +77,8 @@ class Block
                 return $this->loadCss();
             case self::TYPE_BLANK:
                 return "";
+            case self::TYPE_THEME:
+                return $this->loadTheme();
             default:
                 throw new \Exception("The block content type was not set or is not valid");
         }
@@ -88,7 +92,7 @@ class Block
      */
     protected function loadFile()
     {
-        return $this->getFileContents($this->app['base_path']."/resources/blocks/".$this->app['theme']."/".$this->contentData.".php");
+        return $this->getFileContents($this->app['base_path']."/resources/".$this->app['theme']."/".$this->contentData.".php");
     }
 
     /**
@@ -100,6 +104,17 @@ class Block
     protected function loadCss()
     {
         return "<style type='text/css'>".$this->getFileContents($this->app['base_path']."/theme/stylesheet.css")."</style>";
+    }
+
+    /**
+     * Load a theme file
+     *
+     * @return mixed
+     * @throws \Exception
+     */
+    protected function loadTheme()
+    {
+        return $this->getFileContents($this->app['base_path']."/theme/".$this->contentData.".html");
     }
 
     /**
@@ -117,5 +132,15 @@ class Block
 
         //return str_replace("$", "&#36;", file_get_contents($path));
         return file_get_contents($path);
+    }
+
+    /**
+     * Check if this block is enabled
+     *
+     * @return bool
+     */
+    public function isEnabled()
+    {
+        return $this->type != self::TYPE_DISABLED;
     }
 }

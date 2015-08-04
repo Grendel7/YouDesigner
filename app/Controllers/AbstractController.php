@@ -65,9 +65,9 @@ abstract class AbstractController
         $this->blocks['cpanel:domain'] =                Block::create($this->app)->set(Block::TYPE_TEXT, "examplehost.com");
         $this->blocks['cpanel:url'] =                   Block::create($this->app)->set(Block::TYPE_TEXT, "http://cpanel.main-hosting.com/");
         $this->blocks['cpanel:logo'] =                  Block::create($this->app)->set(Block::TYPE_TEXT, "http://static.main-hosting.com/images/cpanel-logo.png");
-        $this->blocks['cpanel:login:background_color']= Block::create($this->app)->set(Block::TYPE_TEXT, "#0e6c9f");
+        $this->blocks['cpanel:login:background_color']= Block::create($this->app)->set(Block::TYPE_TEXT, "#e1e5e8");
         $this->blocks['cpanel:login:background_image']= Block::create($this->app)->set(Block::TYPE_TEXT, "http://static.main-hosting.com/wallpapers/picture-1.jpg");
-        $this->blocks['cpanel:login:foreground_color']= Block::create($this->app)->set(Block::TYPE_TEXT, "#0e6c9f"); //TODO find default foreground color
+        $this->blocks['cpanel:login:foreground_color']= Block::create($this->app)->set(Block::TYPE_TEXT, "#fff");
 
         $this->blocks['client:id'] =                    Block::create($this->app)->set(Block::TYPE_TEXT, "12345");
         $this->blocks['client:name'] =                  Block::create($this->app)->set(Block::TYPE_TEXT, "Example Client");
@@ -101,11 +101,12 @@ abstract class AbstractController
      * Set the content of a block
      *
      * @param $tag
-     * @param $block
+     * @param $type
+     * @param null $data
      */
-    public function setBlock($tag, $block)
+    public function setBlock($tag, $type, $data = null)
     {
-        $this->blocks[$tag] = $block;
+        $this->blocks[$tag]->set($type, $data);
     }
 
     /**
@@ -118,12 +119,17 @@ abstract class AbstractController
     {
         $page = file_get_contents($this->app['base_path'] . "/theme/" . $this->getLayout() . ".html");
 
-        foreach($this->getBlocks() as $tag => $content){
-            $page = preg_replace("/{\s*".$tag."\s*}/", $content->render(), $page);
-
-            if(is_null($page)){
-                throw new \Exception("An error occurred while trying to parse the tag ".$tag);
+        foreach($this->getBlocks() as $tag => $block){
+            $search = "{".$tag."}";
+            if(strpos($page, $search) === false){
+                continue;
             }
+
+            if(!$block->isEnabled()){
+                throw new \Exception("The tag ".$tag." was used on this page but is not supported here!");
+            }
+
+            $page = str_replace($search, $block->render(), $page);
         }
 
         return $page;
