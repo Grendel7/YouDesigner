@@ -1,1 +1,0 @@
-http://cpanel.main-hosting.com/

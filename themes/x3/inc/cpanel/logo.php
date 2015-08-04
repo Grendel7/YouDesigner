@@ -1,1 +1,0 @@
-http://static.main-hosting.com/images/cpanel-logo.png
