@@ -6,7 +6,7 @@
  * Time: 20:39
  */
 
-namespace app\Controllers;
+namespace YouDesigner\Controllers;
 
 
 class SectionController

@@ -6,9 +6,9 @@
  * Time: 20:41
  */
 
-namespace app\Controllers;
+namespace YouDesigner\Controllers;
 
-use app\Helpers\Block;
+use YouDesigner\Helpers\Block;
 use Silex\Application;
 
 abstract class AbstractController
@@ -116,11 +116,7 @@ abstract class AbstractController
      */
     public function render()
     {
-        if(empty($this->layout)){
-            throw new \Exception("The controller did not specify a layout");
-        }
-
-        $page = file_get_contents($this->app['base_path'] . "/themes/" . $this->app['theme'] . "/" . $this->getLayout() . ".html");
+        $page = file_get_contents($this->app['base_path'] . "/theme/" . $this->getLayout() . ".html");
 
         foreach($this->getBlocks() as $tag => $content){
             $page = preg_replace("/{\s*".$tag."\s*}/", $content->render(), $page);

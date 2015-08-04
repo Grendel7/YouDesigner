@@ -6,8 +6,7 @@
  * Time: 20:18
  */
 
-namespace app\Helpers;
-
+namespace YouDesigner\Helpers;
 
 use Silex\Application;
 
@@ -69,7 +68,7 @@ class Block
     {
         switch($this->type){
             case self::TYPE_TEXT:
-                return $this->data;
+                return $this->contentData;
             case self::TYPE_FILE:
                 return $this->loadFile();
             case self::TYPE_CSS:
