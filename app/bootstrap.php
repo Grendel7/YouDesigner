@@ -4,7 +4,7 @@ require_once __DIR__.'/../vendor/autoload.php';
 
 $app = new Silex\Application();
 
-$config = include("../config.php");
+$config = include("./config.php");
 
 foreach($config as $key => $value){
     $app[$key] = $value;
