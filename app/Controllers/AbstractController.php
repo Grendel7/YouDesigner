@@ -68,16 +68,16 @@ abstract class AbstractController
         $this->blocks['meta:js'] =                      Block::create($this->app)->set(Block::TYPE_FILE, "block/js");
         $this->blocks['meta:css'] =                     Block::create($this->app)->set(Block::TYPE_CSS);
 
-        $this->blocks['cpanel:domain'] =                Block::create($this->app)->set(Block::TYPE_TEXT, "examplehost.com");
-        $this->blocks['cpanel:url'] =                   Block::create($this->app)->set(Block::TYPE_TEXT, "http://cpanel.main-hosting.com/");
-        $this->blocks['cpanel:logo'] =                  Block::create($this->app)->set(Block::TYPE_TEXT, "http://static.main-hosting.com/images/cpanel-logo.png");
-        $this->blocks['cpanel:login:background_color']= Block::create($this->app)->set(Block::TYPE_TEXT, "#e1e5e8");
-        $this->blocks['cpanel:login:background_image']= Block::create($this->app)->set(Block::TYPE_TEXT, "http://static.main-hosting.com/wallpapers/picture-1.jpg");
-        $this->blocks['cpanel:login:foreground_color']= Block::create($this->app)->set(Block::TYPE_TEXT, "#fff");
+        $this->blocks['cpanel:domain'] =                Block::create($this->app)->set(Block::TYPE_TEXT, $this->app['theme_vars']['cpanel']['domain']);
+        $this->blocks['cpanel:url'] =                   Block::create($this->app)->set(Block::TYPE_TEXT, $this->app['theme_vars']['cpanel']['url']);
+        $this->blocks['cpanel:logo'] =                  Block::create($this->app)->set(Block::TYPE_TEXT, $this->app['theme_vars']['cpanel']['logo']);
+        $this->blocks['cpanel:login:background_color']= Block::create($this->app)->set(Block::TYPE_TEXT, $this->app['theme_vars']['cpanel']['login-background-color']);
+        $this->blocks['cpanel:login:background_image']= Block::create($this->app)->set(Block::TYPE_TEXT, $this->app['theme_vars']['cpanel']['login-background-image']);
+        $this->blocks['cpanel:login:foreground_color']= Block::create($this->app)->set(Block::TYPE_TEXT, $this->app['theme_vars']['cpanel']['login-foreground-color']);
 
-        $this->blocks['client:id'] =                    Block::create($this->app)->set(Block::TYPE_TEXT, "12345");
-        $this->blocks['client:name'] =                  Block::create($this->app)->set(Block::TYPE_TEXT, "Example Client");
-        $this->blocks['client:email'] =                 Block::create($this->app)->set(Block::TYPE_TEXT, "client@example.com");
+        $this->blocks['client:id'] =                    Block::create($this->app)->set(Block::TYPE_TEXT, $this->app['theme_vars']['client']['id']);
+        $this->blocks['client:name'] =                  Block::create($this->app)->set(Block::TYPE_TEXT, $this->app['theme_vars']['client']['name']);
+        $this->blocks['client:email'] =                 Block::create($this->app)->set(Block::TYPE_TEXT, $this->app['theme_vars']['client']['email']);
         $this->blocks['client:created_at'] =            Block::create($this->app)->set(Block::TYPE_TEXT, date('Y-m-d H:i:s'));
         $this->blocks['client:created_at_timestamp'] =  Block::create($this->app)->set(Block::TYPE_TEXT, time());
     }
