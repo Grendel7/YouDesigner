@@ -1,5 +1,7 @@
 <?php
 
+use Symfony\Component\HttpFoundation\Response;
+
 require_once __DIR__.'/../vendor/autoload.php';
 
 $app = new Silex\Application();
@@ -51,5 +53,13 @@ $app->get('/createaccount', function() use ($app) {
     $controller = new \YouDesigner\Controllers\AccountController($app);
     return $controller->actionCreate();
 })->bind('newaccount');
+
+$app->error(function(\Exception $ex, $code) use ($app) {
+    if($app['debug']){
+        return;
+    }
+
+    return new Response($ex->getMessage());
+});
 
 $app->run();
