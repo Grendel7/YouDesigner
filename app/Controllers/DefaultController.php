@@ -19,11 +19,6 @@ class DefaultController extends AbstractController
      */
     public function actionDefault()
     {
-        return $this->render();
-    }
-
-    protected function getLayout()
-    {
-        return "default";
+        return $this->render(self::LAYOUT_DEFAULT);
     }
 }

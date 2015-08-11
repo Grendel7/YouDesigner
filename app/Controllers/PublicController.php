@@ -13,8 +13,6 @@ use YouDesigner\Helpers\Block;
 
 class PublicController extends AbstractController
 {
-    private $layout = "login";
-
     /**
      * The action to render the Control Panel login page
      *
@@ -26,7 +24,7 @@ class PublicController extends AbstractController
         $this->emptyUnsupportedFields();
         $this->setBlock("block:content", Block::TYPE_FILE, "content/login");
         $this->setBlock("meta:title", Block::TYPE_TEXT, "Login");
-        return $this->render();
+        return $this->render(self::LAYOUT_LOGIN);
     }
 
     /**
@@ -37,16 +35,10 @@ class PublicController extends AbstractController
      */
     public function actionTicket()
     {
-        $this->layout = "public";
         $this->emptyUnsupportedFields();
         $this->setBlock("block:content", Block::TYPE_FILE, "content/public_ticket");
         $this->setBlock("meta:title", Block::TYPE_TEXT, "Ticket Details");
-        return $this->render();
-    }
-
-    protected function getLayout()
-    {
-        return $this->layout;
+        return $this->render(self::LAYOUT_PUBLIC);
     }
 
     /**

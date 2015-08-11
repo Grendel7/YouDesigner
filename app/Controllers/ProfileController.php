@@ -23,11 +23,6 @@ class ProfileController extends AbstractController
     {
         $this->setBlock("meta:title", Block::TYPE_TEXT, "Profile");
         $this->setBlock("block:content", Block::TYPE_FILE, "content/profile");
-        return $this->render();
-    }
-
-    protected function getLayout()
-    {
-        return "profile";
+        return $this->render(self::LAYOUT_PROFILE);
     }
 }

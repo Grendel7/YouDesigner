@@ -12,8 +12,6 @@ use YouDesigner\Helpers\Block;
 
 class AccountController extends AbstractController
 {
-    private $layout;
-
     /**
      * Show the account upgrade page
      *
@@ -22,10 +20,9 @@ class AccountController extends AbstractController
      */
     public function actionUpgrade()
     {
-        $this->layout = "inner";
         $this->setBlock("meta:title", Block::TYPE_TEXT, "Upgrade");
         $this->setBlock("block:content", Block::TYPE_THEME, "upgrade");
-        return $this->render();
+        return $this->render(self::LAYOUT_INNER);
     }
 
     /**
@@ -36,14 +33,8 @@ class AccountController extends AbstractController
      */
     public function actionCreate()
     {
-        $this->layout = "profile";
         $this->setBlock("meta:title", Block::TYPE_TEXT, "New Hosting Account");
         $this->setBlock("block:content", Block::TYPE_THEME, "newaccount");
-        return $this->render();
-    }
-
-    public function getLayout()
-    {
-        return $this->layout;
+        return $this->render(self::LAYOUT_PROFILE);
     }
 }

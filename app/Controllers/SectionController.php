@@ -23,11 +23,6 @@ class SectionController extends AbstractController
     {
         $this->setBlock("meta:title", Block::TYPE_TEXT, "Mange Emails");
         $this->setBlock("block:content", Block::TYPE_FILE, "content/inner");
-        return $this->render();
-    }
-
-    public function getLayout()
-    {
-        return "inner";
+        return $this->render(self::LAYOUT_INNER);
     }
 }

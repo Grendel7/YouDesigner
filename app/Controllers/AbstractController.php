@@ -13,6 +13,12 @@ use Silex\Application;
 
 abstract class AbstractController
 {
+    const LAYOUT_PROFILE = "profile";
+    const LAYOUT_LOGIN = "login";
+    const LAYOUT_DEFAULT = "default";
+    const LAYOUT_PUBLIC = "public";
+    const LAYOUT_INNER = "inner";
+
     /**
      * @var Application
      */
@@ -58,7 +64,7 @@ abstract class AbstractController
         $this->blocks['block:selector:theme:dropdown']= Block::create($this->app)->set(Block::TYPE_FILE, "block/selector_theme_dropdown");
         $this->blocks['block:selector:theme'] =         Block::create($this->app)->set(Block::TYPE_FILE, "block/selector_theme");
 
-        $this->blocks['meta:title'] =                   Block::create($this->app)->set(Block::TYPE_TEXT, "Control Panel");
+        $this->blocks['meta:title'] =                   Block::create($this->app)->set(Block::TYPE_TEXT, "Dashboard");
         $this->blocks['meta:js'] =                      Block::create($this->app)->set(Block::TYPE_FILE, "block/js");
         $this->blocks['meta:css'] =                     Block::create($this->app)->set(Block::TYPE_CSS);
 
@@ -112,12 +118,13 @@ abstract class AbstractController
     /**
      * Render the current page
      *
+     * @param $layout
      * @return string
      * @throws \Exception
      */
-    public function render()
+    public function render($layout)
     {
-        $page = file_get_contents($this->app['base_path'] . "/theme/" . $this->getLayout() . ".html");
+        $page = file_get_contents($this->app['base_path'] . "/theme/" . $layout . ".html");
 
         foreach($this->getBlocks() as $tag => $block){
             $search = "{".$tag."}";
@@ -134,11 +141,4 @@ abstract class AbstractController
 
         return $page;
     }
-
-    /**
-     * Get the name of the theme file which needs to be used as a template for this page
-     *
-     * @return string
-     */
-    abstract protected function getLayout();
 }
