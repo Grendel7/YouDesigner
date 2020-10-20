@@ -1,5 +1,7 @@
 # YouDesigner - The Ultimate YouHosting Theme Developers Tool!
 
+**Archive notice: with YouHosting being shut down, this tool is no longer being maintained.**
+
 Would you like to test your new **YouHosting control panel** theme without having to upload it to the actual control panel? Would you prefer to design your theme using your favorite HTML and CSS editor instead of having to use a basic text area for it?
 
 This tool provides the solution: a local web application which can render YouHosting theme files just like the actual control panel!
